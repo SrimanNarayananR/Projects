@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -21,19 +23,19 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item mt-2">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about-section">About</a>
         </li>
         <li class="nav-item mt-2">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="#menu-section">Menu</a>
         </li>
         <li class="nav-item mt-2">
-          <a class="nav-link" href="#">Stories</a>
+          <a class="nav-link" href="#story-section">Stories</a>
         </li>
         <li class="nav-item mt-2">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact-section">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="#reservation-section">
             <button type="button" class="btn btn-outline-dark bg-warning" style="border-radius:30px;">Book a table</button>
           </a>
         </li>
@@ -71,7 +73,7 @@
                 <h6 class="mt-3">Green Bean Casserole</h6>
                 <p>Beans, Potato, Onion and Paratha</p>
             </div>
-            <div class="col-lg-3 col-6 col-sm-6 food-item col-spacing">
+            <div class="col-lg-3 col-6 col-sm-6 food-item col-spacing" id="about-section">
                 <img src="Screenshots/fet.jpeg" alt="Fettuccine al Pomodoro">
                 <h6 class="mt-3">Fettuccine al Pomodoro</h6>
                 <p>Lettuce, Tomato, Wheat, Millets</p>
@@ -89,16 +91,16 @@
             </div>
         </div>
         <div class="col-md-3 col-6">
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column" >
               <img src="Screenshots/cut1.png" class="img-fluid" alt="Image 2" height="60px">
           </div>
       </div>
         <!-- Text Section -->
-        <div class="col-md-6">
+        <div class="col-md-6" >
             <h2 class="about-title text-danger">About Spice Garden</h2>
             <p class="about-text">
                 At Spice Garden, we are more than just a restaurant; we are a culinary journey, a symphony of flavors, and a celebration of culture. 
-                Our passion for authentic cuisine and dedication to exceptional dining experiences have made us a beloved destination for a food enthusiasts and connoisseurs alike. 
+                Our passion for authentic cuisine and dedication to exceptional dining experiences have made us a beloved destination for food enthusiasts and connoisseurs alike. 
                 With a rich heritage of flavors, our dishes are carefully crafted using time-honored recipes and the finest ingredients sourced from around the world. 
                 We invite you to embark on a gastronomic adventure with us, where every meal is a story waiting to be savored.
             </p>
@@ -107,43 +109,42 @@
         </div>
     </div>
 </div>
-<!--jumbtron section-->
-<div class="bg-light p-5 rounded">
+<!--catering section-->
+<section class="catering-section text-center " >
   <div class="container">
     <h1 class="about-title text-danger text-center py-5" style="font-size: 50px; font-family: 'Great Vibes'; font-weight: bold;">Catering Services</h1>
-    <div class="row text-center">
-      <div class="col-12 col-sm-6 col-md-4 mt-2">
-        <i class="bi bi-cake2-fill"></i>
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cake2-fill" viewBox="0 0 16 16">
-          <path d="m2.899.804.595-.792.598.79A.747.747 0 0 1 4 1.806v4.886q-.532-.09-1-.201V1.813a.747.747 0 0 1-.1-1.01ZM13 1.806v4.685a15 15 0 0 1-1 .201v-4.88a.747.747 0 0 1-.1-1.007l.595-.792.598.79A.746.746 0 0 1 13 1.806m-3 0a.746.746 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v5.17q.512-.02 1-.055zm-3 0v5.176q-.512-.018-1-.054V1.813a.747.747 0 0 1-.1-1.01l.595-.79.598.789A.747.747 0 0 1 7 1.806"/>
-        <path d="M4.5 6.988V4.226a23 23 0 0 1 1-.114V7.16c0 .131.101.24.232.25l.231.017q.498.037 1.02.055l.258.01a.25.25 0 0 0 .26-.25V4.003a29 29 0 0 1 1 0V7.24a.25.25 0 0 0 .258.25l.259-.009q.52-.018 1.019-.055l.231-.017a.25.25 0 0 0 .232-.25V4.112q.518.047 1 .114v2.762a.25.25 0 0 0 .292.246l.291-.049q.547-.091 1.033-.208l.192-.046a.25.25 0 0 0 .192-.243V4.621c.672.184 1.251.409 1.677.678.415.261.823.655.823 1.2V13.5c0 .546-.408.94-.823 1.201-.44.278-1.043.51-1.745.696-1.41.376-3.33.603-5.432.603s-4.022-.227-5.432-.603c-.702-.187-1.305-.418-1.745-.696C.408 14.44 0 14.046 0 13.5v-7c0-.546.408-.94.823-1.201.426-.269 1.005-.494 1.677-.678v2.067c0 .116.08.216.192.243l.192.046q.486.116 1.033.208l.292.05a.25.25 0 0 0 .291-.247M1 8.82v1.659a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.94.94 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426V8.833l-.68.907a.94.94 0 0 1-1.17.276 1.94 1.94 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277z"/>
-        </svg>
-        <h3 class="py-3">Birthday Party</h3>
-        <p class="py-3">Make your special day even more memorable with our catering services tailored for birthday celebrations. From delicious cakes to a wide range of cuisines, we've got you covered</p>
+      <div class="row">
+          <div class="col-md-4">
+              <i class="fa-solid fa-cake-candles"></i>
+              <h3>Birthday Party</h3>
+              <p class="para_catering ml-auto">Make your special day even more memorable with our catering
+                  services
+                  tailored
+                  for birthday
+                  celebrations. From delicious cakes to a wide range of cuisines, we've got you covered.</p>
+          </div>
+          <div class="col-md-4">
+              <i class="fa-solid fa-handshake"></i>
+              <h3>Business Meetings</h3>
+              <p class="para_catering">Elevate your corporate events with our professional catering services. We
+                  provide gourmet meals and a
+                  comfortable atmosphere for successful business meetings.</p>
+          </div>
+          <div class="col-md-4">
+              <i class="fa-solid fa-gift"></i>
+              <h3>Wedding Party</h3>
+              <p class="para_catering mr-auto">Your special day deserves the finest catering. Let
+                  us create a memorable
+                  wedding feast that reflects
+                  your love story and delights your guests.</p>
+          </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 mt-2">
-        <i class="bi bi-briefcase-fill"></i>
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
-          <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"/>
-        <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"/>
-        </svg>
-        <h3 class="py-3">Business Meetings</h3>
-        <p class="py-3">Elevate your corporate events with our professional catering services. We provide gourmet meals and a comfortable atmosphere for successful business meetings.</p>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 mt-2">
-        <i class="bi bi-gift-fill"></i>
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-gift-fill" viewBox="0 0 16 16">
-          <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"/>
-        </svg>
-        <h3 class="py-3">Wedding Party</h3>
-        <p class="py-3">Your special day deserves the finest catering. Let us create a memorable wedding feast that reflects your love story and delights your guests.</p>
-      </div>
-    </div>
   </div>
-</div>
+
+</section>
 
 
-  <div class="container ps-5 pe-5">
+  <div class="container ps-5 pe-5" id="menu-section">
     <h1 class="about-title text-danger text-center py-5" style="font-size: 50px; font-family: 'Great Vibes'; font-weight: bold;">Specialties Our Menu</h1>
     <div class="card">
         <div class="row g-0">
@@ -334,7 +335,7 @@
   </div>
 </div>
 </section>
-<section class="container-fluid bg-warning">
+<section class="container-fluid bg-warning" id="reservation-section">
   <div class="background-image">
     <div class="container centered-form">
         <div class="reservation-form shadow-lg">
@@ -397,10 +398,10 @@
   </div>
 </div>
 </section>
-<section class="container-fluid happy-customer bg-dark">
+<section class="container-fluid happy-customer bg-dark" id="story-section">
   <h1 class="mt-1 py-5 text-center" style="color:orangered; font-family: 'Great Vibes'; font-weight: bold;font-size: 50px;">Happy Customers</h1>
   <div class="container text-center">
-      <div class="row">
+      <div class="row" >
           <!-- Customer 1 Card -->
           <div class="col-md-4 mb-4">
               <div class="card shadow-lg">
@@ -440,11 +441,11 @@
   </div>
 </section>
 
-<section class="map">
+<section class="map" id="contact-section">
   <div class="container mt-5">
       <div class="row">
           <div class="col-md-6">
-              <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497611.4459034918!2d79.6447210890625!3d12.998092000000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267760611c567%3A0x80f4fc0079abcb6!2sSpice%20Garden%20Multi%20Cuisine%20Restuarant!5e0!3m2!1sen!2sin!4v1727295828192!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497611.4459034918!2d79.6447210890625!3d12.998092000000018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267760611c567%3A0x80f4fc0079abcb6!2sSpice%20Garden%20Multi%20Cuisine%20Restuarant!5e0!3m2!1sen!2sin!4v1727295828192!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="col-md-6">
               <h2 class="text-danger text-center" style="font-family: 'Great Vibes';font-weight: bold;font-size: 50px">Contact Us</h2>
